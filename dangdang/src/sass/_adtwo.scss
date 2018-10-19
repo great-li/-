@@ -1,0 +1,25 @@
+@charset"utf-8";
+.ad-two{
+    padding: 20px 0;
+    width: 1200px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
+    margin:0 auto;
+    .book-3ad{
+        width: 1300px;
+        padding: 10px 0;
+        a{
+            display: block;
+            float: left;
+            width: 382px;
+            margin-right:27px;
+            img{
+                display: block;
+                width: 382px;
+            } 
+        }
+    }
+}

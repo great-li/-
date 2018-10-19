@@ -1,0 +1,248 @@
+@charset"utf-8";
+    /*title*/
+.dujia-title2{
+  @extend .dujia-title;
+  h3{
+      background: url(../images/title_sprite.png) 0 -78px no-repeat;
+  }
+}
+.dujia-main2{
+    @extend .dujia-main
+}
+
+.ebook{
+    width: 240px;
+    padding-top: 10px;
+    margin-bottom: 40px;
+    .e-title{
+        height: 40px;
+        line-height: 40px;
+        padding-left: 34px;
+        font-size: 16px;
+        color: #000;
+        font-weight: bold;
+        border-bottom: 2px solid #487a6f;
+       background: url(../images/sprite.png) 5px 4px no-repeat;
+        font-family: "Microsoft Yahei";
+        position: relative;
+        overflow: hidden;
+        a{
+            color: #000;
+        }
+    }
+}
+/* content */
+//text
+.ebook-sall{
+    border: 1px solid #eaeaea;
+    border-top: 0;
+    padding-top: 3px;
+    height: 480px;
+    position: relative;
+    overflow: hidden;
+   
+}
+.line1{
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px dotted #d8d8d8;
+    width: 220px;
+    margin-left: 9px;
+    vertical-align: top;
+   
+    .num{
+        color: #d10000;
+        width: 29px;
+        padding-left: 8px;
+        float: left;
+        font-size: 16px;
+    }
+    p{
+        float: left;
+        height: 36px;
+        position: relative;
+        overflow: hidden;
+        width: 182px;
+        a{
+            font-size: 12px;
+            color: #000;
+            font-weight: bold;
+        }
+    }
+}
+//pic
+.item1{
+    height: 146px;
+    width: 220px;
+    margin-left: 9px;
+    position: relative;
+    border-bottom: 1px dotted #d8d8d8;
+    vertical-align: top;
+    display: list-item;
+    .num{
+        font-size: 16px;
+        color: #d10000;
+        height: 24px;
+        line-height: 24px;
+        position: absolute;
+        left: 8px;
+        top: 6px;
+        z-index: 2;
+        }
+        a{
+            display: block;
+            width: 120px;
+            height: 120px;
+            position: absolute;
+            left: 20px;
+            top: 11px;
+            img{
+                display: block;
+                width: 120px;
+                height: 120px;
+            }
+        }
+        .e-name{
+            width: 120px;
+            height: 60px;
+            line-height: 22px;
+            position: absolute;
+            overflow: hidden;
+            top: 9px;
+            left: 130px;
+
+
+            a{
+                font-size: 12px;
+                color: #000;
+                &:hover{
+                    color:#c30000;
+                    text-decoration: underline;
+                }
+            }
+        }
+        .price{
+            position: absolute;
+            top: 73px;
+            left: 140px;
+            font-size: 14px;
+            line-height: 20px;
+            font-family: "Arial";
+            .e-rol{
+                color: #c30000;
+                font-size: 14px;
+                line-height: 20px;
+                height: 20px;   
+            }
+        }
+        .link{
+            position: absolute;
+            left: 140px;
+            top: 97px;
+            a{
+                font-size: 12px; 
+                 color: #487a6f; 
+            }
+          
+        }
+}
+
+.line2{
+    @extend .line1;
+   
+}
+.item2{
+
+    @extend .item1;
+    display: none;
+}
+
+.line3{
+    @extend .line2;
+  
+}
+.item3{
+    
+    @extend .item2;
+ 
+}
+.line4{
+    @extend .line2;
+    .num{
+        color: #000;
+    }
+  
+}
+.item4{
+    
+    @extend .item2;
+    .num{
+        color: #000;
+    }
+ }
+
+ .line5{
+    @extend .line4;
+  
+}
+.item5{
+    
+    @extend .item4;
+ 
+} 
+.line6{
+    @extend .line4;
+  
+}
+.item6{
+    
+    @extend .item4;
+ 
+} .line7{
+    @extend .line4;
+  
+}
+.item7{
+    
+    @extend .item4;
+ 
+} .line8{
+    @extend .line4;
+  
+}
+.item8{
+    
+    @extend .item4;
+ 
+} .line9{
+    @extend .line4;
+  
+}
+.item9{
+    
+    @extend .item4;
+ 
+} .line10{
+    @extend .line4;
+  
+}
+.item10{
+    
+    @extend .item4;
+ 
+} 
+.e-book{
+    border: 1px solid #eaeaea;
+    border-top: 0;
+    text-align: right;
+    background: #fff;
+    height: 27px;
+    line-height: 20px;
+    padding-right: 5px;
+    position: relative;
+    top: -2px;
+    a{
+        color: #5097bc;
+        font-size: 12px;
+    }
+}

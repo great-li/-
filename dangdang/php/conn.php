@@ -1,0 +1,15 @@
+<?php  
+	header('content-type:text/html;charset=utf-8');
+	//定义常量：值不能改变
+	define('HOSTNAME','localhost');
+	define('USERNAME','root');
+	$conn=@mysql_connect(HOSTNAME,USERNAME,'');
+	if(!$conn){
+		die('数据库链接失败:'.mysql_error());
+	}
+	mysql_select_db('dnagdang');
+	mysql_query('SET NAMES UTF8');
+
+	
+
+?>

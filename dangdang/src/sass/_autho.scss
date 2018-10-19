@@ -1,0 +1,446 @@
+@charset "utf-8";
+.mingren{
+    width: 1200px;
+    margin: 0 auto;
+    .zuojia{
+        width: 950px;
+        float: left;
+        margin-right: 10px;
+        height: 606px;
+        .book-hot{
+            width: 950px;
+            overflow: hidden;
+            position: relative;
+            height: 588px;
+            
+        }
+    }
+}
+.book1-title{
+    height: 36px;
+    border: 1px solid #eaeaea;
+    border-bottom:none;
+    position: relative;
+    ul{
+        height: 39px;
+        position: absolute;
+        left: -1px;
+        top: -2px;
+        li{
+            border-top: 1px solid #487a6f;
+            margin-top: 0px;
+            background-color: #fff;
+            height: 35px;
+            float: left;
+            width: 122px;
+            line-height: 38px;
+            font-family: "Microsoft Yahei";
+            margin-right:2px;
+           
+            span{
+                display: block;
+                width: 120px;
+                padding: 0 1px;
+                height: 38px;
+                font-size: 16px;
+                color: #3d3d3d;
+                text-align: center;
+                cursor: pointer; 
+            }
+        }
+        .hot-active{
+             border-top:4px solid #487a6f;
+             span{
+                  color: #487a6f;
+                  font-weight: bold; 
+                  background: #fff;
+                  border-right: 1px solid #cccccc;
+                  border-left:1px solid #cccccc;
+             }
+        }
+    }
+}
+
+
+
+.book-content{
+    border: 1px solid #eaeaea;
+    border-top: 0px;
+    height: 471px;
+    position: relative;
+    .hot-left{
+        width: 750px;
+        position: absolute;
+        left: 10px;
+        top: 0;
+        .intruction{
+            height: 195px;
+            border-bottom: 1px dotted #d4d4d4;
+           
+        }
+    }
+}
+
+.b-line1{
+    .num-l{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        font-size: 30px;
+        font-weight: bold;
+        color: #ff4f4b;
+        height: 46px;
+        line-height: 46px;
+        font-family: "Microsoft Yahei";
+        span{
+            font-size: 16px;    
+            font-weight: bold;
+             color: #ff4f4b;
+            line-height: 46px;
+            font-family: "Microsoft Yahei";
+        }
+    }
+    .line-a{
+        position: absolute;
+        left: 45px;
+        top: 20px;
+        height: 143px;
+        width: 143px;
+        display: block; 
+        img{
+            display:block;
+            width: 143px;
+            height: 143px;
+        } 
+
+    }
+    .name{
+        font-size: 18px;
+        color: #000;
+        position: absolute;
+        left: 206px;
+        top: 40px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: bold;
+        overflow: hidden;
+        a{
+            font-size: 18px;
+            color: #000;
+            line-height: 30px;
+            font-weight: bold;
+            &:hover{
+                color: darkorange;
+                text-decoration: underline;
+            }
+        }
+    }
+    .del{
+        width: 544px;
+        height: 96px;
+        line-height: 24px;
+        overflow: hidden;
+        position: absolute;
+        left: 206px;
+        top: 70px;
+        color: #666;
+        font-size: 12px;
+    }
+    
+}
+
+.zuopin{
+    position: absolute;
+    left: 0px;
+    top: 184px;
+    height: 24px;
+    line-height: 24px;
+    width: 80px;
+    background-color: #fff;
+    span{
+        display: block;
+        width: 66px;
+        border-radius: 5px;
+        background-color: #f8f8f8;
+        text-align: center;
+        color: #000;
+        font-size: 14px;
+    }
+}
+
+.auoter-book{
+    position: absolute;
+    left: 10px;
+    top: 201px;
+    width: 750px;
+    overflow: hidden;
+    ul{
+        padding: 20px 0 0 0;
+        height: 508px;
+        overflow: hidden;
+        width: 1200px;
+        .b-line1{
+            float: left;
+            width: 150px;
+            margin-right: 47px;
+             margin-bottom: 20px;
+            position: relative;
+            .pics{
+                width: 150px;
+                display: block;
+                height: 150px;
+                img{
+                    width: 150px;
+                    display: block;
+                    height: 150px;
+                }
+            }
+            .b-l-name{
+                padding: 7px 20px 0;
+                height: 18px;
+                line-height: 18px;
+                overflow: hidden;
+                text-align: center;
+                a{
+                    color: #000;
+                    font-size: 12px;
+                    &:hover{
+                        color: #ec7814;
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .star{
+                height: 14px;
+                padding: 3px 0 3px 20px;
+                span{
+                    display: block;
+                    height: 13px;
+                    font-size: 0;
+                    width: 30px;
+                    background: url(../images/book_star_bg.png) 0 top repeat-x;
+                    
+                }
+            }
+            .price{
+                .price-r{
+                    color: #aaa;
+                    text-decoration: line-through;
+                    float: left;
+                }
+            }
+        }
+    }
+}
+
+.authon-hot-right{
+     position: absolute;
+     left: 795px;
+     top: 11px;
+     width: 132px;
+     border: 1px solid #e1e1e1;
+     background-color: #f8f8f8;
+     padding: 0 4px;
+     height: 448px;
+     overflow: hidden;
+     .authon-ul{
+         margin-top: -1px;
+         position: relative;
+         li{
+
+            border-top: 1px solid #fff;
+            border-bottom: 1px solid #e1e1e1;
+            height: 42px;
+           position: relative;
+            overflow: hidden;
+            line-height: 42px;
+            padding-bottom: 1px;
+            width: 132px;
+            height: 45px;
+            //text-align: center;
+            margin-left: 0px;
+           
+        
+            
+            .num{
+                float: left;
+                width: 22px;
+                padding-left: 8px;
+                color: #487a6f;
+                font-size: 14px;    
+            }
+            .ling-autho{
+                width: 100px;
+                float: left;
+              
+                a{
+                      font-size: 12px;
+                      color: #3d3d3d;
+                      &:hover{
+                          color: #f40;
+                      }
+                }
+            }
+         }
+    }
+}
+.m-r-right{
+    width: 240px;
+    position: relative;
+    overflow: hidden;
+    height: 510px;
+    a{
+        display: block;
+        width: 240px;
+        height: 120px;
+        margin-bottom: 10px;
+        img{
+            display: block;
+            width: 240px;
+            height: 120px;
+        }
+    }
+}
+
+
+//mingrentang
+.fengtang .f-left{
+    position: absolute;
+    width: 145px;
+    height: 420px;
+    left:  25px;
+    top: 23px;
+    border-right: 1px dotted #eaeaea;
+    padding-right: 39px;
+    .f-pic{
+        margin-bottom: 5px;
+        display: block;
+        width: 145px;
+        height: 145px;
+        img{
+            display: block;
+            width: 145px;
+            height: 145px;
+        }
+    }
+    .f-name{
+        font-size: 18px;
+        color: #000;
+       // text-align: center;
+        height: 42px;
+        line-height: 42px;
+        font-weight: bold;
+        position: relative;
+        overflow: hidden;
+        margin-left: 50px;
+        a{
+            color: #000;
+            &:hover{    
+                color: #ec7814;
+                text-decoration: underline;
+            }
+        }
+    
+    }
+    .f-del{
+        color: #666;
+        line-height: 24px;
+        width: 145px;
+        height: 264px;
+        font-size: 12px;    
+    }
+}
+
+.f-right{
+    width: 670px;
+    position: absolute;
+    left: 240px;
+    top: 28px;
+    .f-right-top{
+        border-bottom: 1px dotted #eaeaea;
+        padding-bottom: 25px;
+        .f-pic{
+            display: block;
+            width: 200px;
+            height: 200px;
+            float: left;
+        }
+        .f-title{
+            height: 48px;
+            position: relative;
+            overflow: hidden;
+            padding-top: 5px;
+            float: right;
+            width: 470px;
+            a{
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 24px;color: #000;
+                &:hover{
+                    color: #ec7814;
+                    text-decoration: underline;
+                }
+            }
+        }
+        .f-star{
+            float: left;
+            left: 470px;
+            padding: 8px 0 7px;
+            height: 14px;
+            span{
+                display: block;
+                height: 13px;
+                font-size: 0;
+                width: 69px;
+                background: url(../images/book_star_bg.png) 0 top repeat-x;
+            } 
+        }
+        .price{
+            .price-r{
+                color: #aaa;
+                text-decoration: line-through;
+                margin-right: 12px;
+            }
+        }
+        .f-del{
+            height: 72px;
+            position: relative;
+            overflow: hidden;
+            line-height: 24px;
+            color: #666;
+            margin-top: 10px;
+            font-size: 12px;
+        }
+
+    }
+}
+.f-right-bottom{
+    font-size: 14px;
+    color: #666;
+    line-height: 50px;
+    margin-top: 20px;
+    .qita{
+        height: 50px;
+        position: relative;
+       overflow: hidden;
+        font-weight: bold;
+        UL{
+            position: absolute;
+            left: 135px;
+            top: 0;
+            height: 50px;
+            width: 535px;
+            a{
+                //background-color: transparent;
+                color: #3576b2;
+                font-weight: normal;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+.xinrui-zuojia{
+    @extend .fengtang;
+}

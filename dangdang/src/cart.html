@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车-当当网</title>
+    <link rel="stylesheet" type="text/css" href="css/cart.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+</head>
+<body>
+    <!-- 顶部 -->
+    <div class="head">
+            <div class="head-wrap">
+                <div class="head-left">
+                    Hi
+                    <span class="username"></span>
+                    <a href="javascript:;">[退出]</a>
+                </div>
+                <div class="head-right">
+                    <ul class="fuwu">
+                        <li class="my-cart">
+                            <span></span>
+                            <a href="#">购物车<i>0</i></a>
+                        </li>
+                        <li class="my-dingdan">
+                            <a href="#">我的订单</a>
+                        </li>
+                        <li class="xiaoshuo">
+                            <a href="#">小说</a>
+                        </li>
+                        <li class="shoujidang">
+                            <span></span>
+                            <a href="#">手机当当</a>
+                        
+                           
+                          
+                        </li>
+                        <li class="my-dang">
+                            <a href="#">我的当当</a>
+                            <ul class="my-dang-nav">
+                                <li><a href="#">我的当当</a></li>
+                                <li><a href="#"></a>购物车</li>
+                                <li><a href="#">积分抵现</a></li>
+                                <li><a href="#">我的收藏</a></li>
+                                <li><a href="#">我的余额</a></li>
+                                <li><a href="#">我的评论</a></li>
+                                <li><a href="#">礼券</a></li>
+                                <li><a href="#">电子书架</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="qiyecaigou">
+                            <a href="#">企业采购</a>
+                            <ul class="qiye-nav">
+                                <li><a href="#">大宗采购</a></li>
+                                <li><a href="#">礼品卡采购</a></li>
+                                <li><a href="#">礼品卡激活</a></li>
+                                <li><a href="#">礼品卡使用</a></li>
+                            </ul>
+                        </li>
+                        <li class="kehu">
+                            <a href="#">客户服务</a>
+                            <ul class="ke-nav">
+                                <li><a href="#">帮助中心</a></li>
+                                <li><a href="#">自主退换货</a></li>
+                                <li><a href="#">自主发票</a></li>
+                                <li><a href="#">联系客服</a></li>
+                                <li><a href="#">我要投诉</a></li>
+                                <li><a href="#"> 意见建议</a></li>
+ 
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    <!-- 图片 -->
+    <div class="shopping">
+        <div class="seep">
+            <a href="#">
+                <img src="http://img60.ddimg.cn/2018/9/28/2018092817041398581.jpg"> 
+            </a>
+        </div>
+    </div>
+    <div class="login-line">
+        <div class="logo-l">
+            <div class="proudec">
+                <span class="current">我的购物车</span>
+                <span class="current2">填写订单</span>
+                <span class="current3">完成订单</span>
+            </div>
+            <div class="log-left">
+                <a href="#">
+                    <img src="http://shopping.dangdang.com/shoppingcart/images/dd_logo.jpg?v=20180705">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+<!-- 主要内容 -->
+<div class="main">  
+     <!-- 空的时候 -->
+    <div class="main-wrap" style="display:block;">
+         <div class="kong-top">
+                <p>您的购物车还是空的，您可以：</p>
+                <a href="#">去逛逛</a>
+        </div>
+        <div class="kong-middle">
+            <div class="tj">为你推荐</div>
+        </div>
+        <div class="kong-bottom">
+            <div class="ll">最近浏览</div>
+        </div>
+    </div>
+    <!-- 有商品的时候 -->
+    <div class="shangping" style="display:block">
+      <!-- 头部 -->
+        <div class="add-line">
+            <div class="address">
+                <span></span>
+              <div class="p-address">
+                   配送地址a
+              </div> 
+                <div class="bj">北京市东城区</div>
+            </div>
+        </div>
+        <!-- 主要内容 -->
+        <div class="main-cart">
+            <ul class="cart-name">
+                <li class="f1">
+                    <input type="checkbox">
+                    <a href="#">全选</a>
+                </li>
+                <li class="f2">商品信息</li>
+                <li class="f3">单价(元)</li>
+                <li class="f4">数量</li>
+                <li class="f5">金额</li>
+                <li class="f6">操作</li>
+                
+
+            </ul>
+            <!-- 拼接的内容 -->
+            <div class="shopping-list">
+                 <ul class="shopping-ul" style="display: none;">
+                   <li class="checked">
+                        <input type="checkbox">
+                    </li>
+                    <li class="row-pic">
+                        <a href="#">
+                            <img src="http://img3x6.ddimg.cn/93/14/25331916-1_m_2.jpg">
+                        </a>
+                    </li>
+                    <li class="row-name">
+                        <div class="name-r">
+                            <a href="#">【2019日历】-凡是过去，皆为序曲：2019小林漫画日历</a>
+                        </div>
+                    </li>
+                    <li class="row-price">
+                        <span>￥126.20</span>
+                    </li>
+                    <li class="roe-tip">
+                        <span class="shuliang">
+                            <a href="javascript:;" class="jian">-</a>
+                            <input type="text" value="1">
+                            <a href="javascript:;" class="jia">+</a>
+                        </span>
+                    </li>
+                    <li class="row4">
+                        <span>¥0.00</span>
+                    </li>
+                    <li class="row5">
+                        <span><a href="#">移入收藏</a></span>
+                        <br>
+                        <span><a href="javascript:;" class="remove">删除</a></span>
+                    </li>
+                </ul>
+                </div>
+                <!-- jiesuna -->
+                <div class="total">
+                    <div class="total-left">
+                        <span class="xuanze">
+                            已选择
+                            <a href="#">0</a>
+                            件商品
+                        </span>
+
+                    </div>
+                    <div class="total-right">
+                        <a href="javascript:;">结算</a>
+                        <div class="subtotal">
+                            <div class="p-2">
+                            <p class="sun-p1">
+                                <span class="cartsum">总计(不算运费)</span>
+                                <span class="payAmount">￥0.00</span>
+                            </p>
+                            <p class="sun-p2">
+                                <span class="cartsum"> 已节省</span>
+                                <span class="falor">￥0.00</span>
+                            </p>
+
+                            </div>
+                       
+                        </div>
+                    </div>
+                </div>
+        </div>
+    <!-- 推荐商品 -->
+    <!--<div class="tuijian">
+        <h3>买过同样商品的顾客还买了</h3>
+        <ul class="like" style="display: none;">-->
+            <!--<li>    
+                <div class="like-pic">
+                    <a href="#" class="pica">
+                        <img src="http://img3m8.ddimg.cn/63/7/25254468-1_b_7.jpg">
+                    </a>
+                    <a href="#" class="jairu">加入购物车</a>
+                 </div>
+                 <div class="price">¥39.60</div>
+                 <div class="like-name">
+                     <a href="#">初相遇·若重逢：小林深情漫画集【林帝浣】</a>
+                 </div>
+                 <div class="like-pinglu">
+                     <span class="star">
+                         <span style="width:100%"></span>
+                     </span>
+                     <a href="#">7364条评论</a>
+                 </div>
+            </li>
+            <li>    
+                    <div class="like-pic">
+                        <a href="#" class="pica">
+                            <img src="http://img3m8.ddimg.cn/63/7/25254468-1_b_7.jpg">
+                        </a>
+                        <a href="#" class="jairu">加入购物车</a>
+                     </div>
+                     <div class="price">¥39.60</div>
+                     <div class="like-name">
+                         <a href="#">初相遇·若重逢：小林深情漫画集【林帝浣】</a>
+                     </div>
+                     <div class="like-pinglu">
+                         <span class="star">
+                             <span style="width:100%"></span>
+                         </span>
+                         <a href="#">7364条评论</a>
+                     </div>
+             </li>
+             <li>    
+                        <div class="like-pic">
+                            <a href="#" class="pica">
+                                <img src="http://img3m8.ddimg.cn/63/7/25254468-1_b_7.jpg">
+                            </a>
+                            <a href="#" class="jairu">加入购物车</a>
+                         </div>
+                         <div class="price">¥39.60</div>
+                         <div class="like-name">
+                             <a href="#">初相遇·若重逢：小林深情漫画集【林帝浣】</a>
+                         </div>
+                         <div class="like-pinglu">
+                             <span class="star">
+                                 <span style="width:100%"></span>
+                             </span>
+                             <a href="#">7364条评论</a>
+                         </div>
+             </li>
+             <li>    
+                            <div class="like-pic">
+                                <a href="#" class="pica">
+                                    <img src="http://img3m8.ddimg.cn/63/7/25254468-1_b_7.jpg">
+                                </a>
+                                <a href="#" class="jairu">加入购物车</a>
+                             </div>
+                             <div class="price">¥39.60</div>
+                             <div class="like-name">
+                                 <a href="#">初相遇·若重逢：小林深情漫画集【林帝浣】</a>
+                             </div>
+                             <div class="like-pinglu">
+                                 <span class="star">
+                                     <span style="width:100%"></span>
+                                 </span>
+                                 <a href="#">7364条评论</a>
+                             </div>
+             </li>
+             <li>    
+                                <div class="like-pic">
+                                    <a href="#" class="pica">
+                                        <img src="http://img3m8.ddimg.cn/63/7/25254468-1_b_7.jpg">
+                                    </a>
+                                    <a href="#" class="jairu">加入购物车</a>
+                                 </div>
+                                 <div class="price">¥39.60</div>
+                                 <div class="like-name">
+                                     <a href="#">初相遇·若重逢：小林深情漫画集【林帝浣】</a>
+                                 </div>
+                                 <div class="like-pinglu">
+                                     <span class="star">
+                                         <span style="width:100%"></span>
+                                     </span>
+                                     <a href="#">7364条评论</a>
+                                 </div>
+             </li>
+             <li>    
+                                    <div class="like-pic">
+                                        <a href="#" class="pica">
+                                            <img src="http://img3m8.ddimg.cn/63/7/25254468-1_b_7.jpg">
+                                        </a>
+                                        <a href="#" class="jairu">加入购物车</a>
+                                     </div>
+                                     <div class="price">¥39.60</div>
+                                     <div class="like-name">
+                                         <a href="#">初相遇·若重逢：小林深情漫画集【林帝浣】</a>
+                                     </div>
+                                     <div class="like-pinglu">
+                                         <span class="star">
+                                             <span style="width:100%"></span>
+                                         </span>
+                                         <a href="#">7364条评论</a>
+                                     </div>
+             </li>
+            <li>    
+                                        <div class="like-pic">
+                                            <a href="#" class="pica">
+                                                <img src="http://img3m8.ddimg.cn/63/7/25254468-1_b_7.jpg">
+                                            </a>
+                                            <a href="#" class="jairu">加入购物车</a>
+                                         </div>
+                                         <div class="price">¥39.60</div>
+                                         <div class="like-name">
+                                             <a href="#">初相遇·若重逢：小林深情漫画集【林帝浣】</a>
+                                         </div>
+                                         <div class="like-pinglu">
+                                             <span class="star">
+                                                 <span style="width:100%"></span>
+                                             </span>
+                                             <a href="#">7364条评论</a>
+                                         </div>
+            </li>
+            <li>    
+                                            <div class="like-pic">
+                                                <a href="#" class="pica">
+                                                    <img src="http://img3m8.ddimg.cn/63/7/25254468-1_b_7.jpg">
+                                                </a>
+                                                <a href="#" class="jairu">加入购物车</a>
+                                             </div>
+                                             <div class="price">¥39.60</div>
+                                             <div class="like-name">
+                                                 <a href="#">初相遇·若重逢：小林深情漫画集【林帝浣】</a>
+                                             </div>
+                                             <div class="like-pinglu">
+                                                 <span class="star">
+                                                     <span style="width:100%"></span>
+                                                 </span>
+                                                 <a href="#">7364条评论</a>
+                                             </div>
+            </li>-->
+    <!--</ul>
+    </div>
+  </div>-->
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="foote-wrap">
+                <span>Copyright (C) 当当网 2004-2014, All Rights Reserved</span>
+                <a href="#"><img src="http://img60.ddimg.cn/upload_img/00459/index/validate.gif"></a>
+                <span>  京ICP证041189号出版物经营许可证 新出发京批字第直0673号</span>
+        </div>
+    </div>
+</div>
+		<script src="script/thirdplugins/require.js" defer async="true" data-main="script/js/c-main.js"></script>
+</body>
+</html>

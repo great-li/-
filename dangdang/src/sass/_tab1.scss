@@ -1,0 +1,167 @@
+@charset"utf-8";
+.storey-tab{
+    float: left;
+    width: 950px;
+    margin-right: 10px;
+    .dujia{
+        width: 950px;
+        overflow: hidden;
+        position: relative
+    }
+}
+.dujia-title{
+    position: relative;
+    height: 50px;
+    border-bottom: 1px solid #487a6f;
+    h3{
+        height: 50px;
+        width: 108px;
+        line-height: 0;
+        font-size: 0;
+        background: url(../images/title_sprite.png) 0 0 no-repeat;
+        position: absolute;
+        left: 0;
+        top: 0;
+       // text-indent: -9999px;
+    
+    }
+    ul{
+        height: 35px;
+        position: absolute;
+        right: 15px;
+        top: 17px;
+        li{
+            padding: 2px 17px 0;
+            height: 32px;
+            line-height: 32px;
+            float: left;
+            color: #666;
+            font-size: 14px;
+            font-family: 'Microsoft Yahei';
+            margin-right: 4px;
+            cursor: pointer;
+            span{
+                line-height:32px;
+                color: #666;
+                font-size: 14px;
+                font-family: 'Microsoft Yahei';
+            }    
+        }
+        .active3{
+            background: #fff;
+            border-radius: 6px 6px 0 0;
+            border: 2px solid #487a6f;
+            border-bottom: none;
+            color: #4e8176;
+            padding: 0 15px;
+            font-weight: bold;
+            
+        }
+    }
+}
+
+
+//dujia neirong
+.dujia-main{
+    ul{
+        padding: 20px 0 0 0;
+        height: 513px;
+        overflow: hidden;
+        width: 1000px;
+        li{
+            float: left;
+            width: 150px;
+            height: 270px;
+            margin-right: 47px; 
+            position: relative;
+           
+        }
+    }
+}
+.dujia-main li>a{
+    width: 150px;
+    height: 150px;
+    display: block;
+    img{
+        display: block;
+        width: 150px;
+        height: 150px;
+    }
+}
+.dujia-tab-1{
+    .name{
+        padding: 7px 20px 0;
+        height: 18px;
+        line-height: 18px;
+        overflow: hidden;
+        a{
+            color: #000;
+            font-size: 12px;
+            &:hover{
+                color:#EC7814;
+            }
+        }
+    }
+    .num-logo{
+        padding: 5px 0px 0 43px;
+        background: url(../images/sprite.png) 20px -86px no-repeat;
+        height: 16px;
+        line-height: 16px;
+        display: block;
+        color: #5b877e;
+        font-family: '宋体';
+        font-size: 12px;
+        overflow: hidden;
+    }
+
+}
+.dujia-price{
+    padding: 5px 0 0 20px;
+    height: 36px;
+    line-height: 16px;
+    overflow: hidden;
+    font-family: "Arial";
+    font-size: 14px;
+    position: relative;
+    .d-now-price{
+        color: #c30;
+        float: left;
+        margin-right: 12px;
+        font-weight: bold;  
+    }
+    .d-aog-price{
+                    color: #aaa;
+                    text-decoration: line-through;
+                    float: left
+                }   
+}
+.dujia-tab-2{
+    @extend .dujia-tab-1;
+}
+.dujia-tab-3{
+    @extend .dujia-tab-1;
+}
+.dujia-tab-4{
+    @extend .dujia-tab-1;
+}
+.dujia-tab-5{
+    @extend .dujia-tab-1;
+}
+.dujia-tab-6{
+    @extend .dujia-tab-1;
+}
+.dujia-tab-7{
+    @extend .dujia-tab-1;
+}
+.dujia-tab-8{
+    @extend .dujia-tab-1;
+}
+.dujia-tab-9{
+    @extend .dujia-tab-1;
+}
+.dujia-tab-10{
+    @extend .dujia-tab-1;
+}
+.dujia-tab-11{
+    @extend .dujia-tab-1;
+}

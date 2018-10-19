@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/*猜你喜欢*/
+.guess{
+    width: 1200px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 100px;
+    border-bottom: 1px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
+    margin: 0 auto;
+    padding:20px 0;
+    .guess-ad{
+        width: 1300px;
+        height: 140px;  
+        zoom: 1;
+        padding: 10px 0;
+        a{
+            display: block;
+            float: left;
+            width: 382px;
+            margin-right: 27px;
+            img{
+                display: block;
+                width: 382px;
+            }
+        }
+    }   
+}
+
+/*主要内容*/
+.guessyou{
+     height: 581px;
+    .guess-title{
+        height: 50px;
+        position: relative;
+        border-bottom: 1px solid #487a6f;
+        h3{
+            height: 50px;
+            width: 108px;
+            line-height: 0;
+            font-size: 0;
+            background: url(../images/title_sprite.png) 0 -150px no-repeat;
+            position: absolute;
+            left: 0;
+            top: 0;
+            text-indent: -9999px;
+        }
+        a{
+            display: block;
+            height: 30px;
+            line-height: 30px;
+            font-size: 14px;
+            color: #228bc1;
+            position: absolute;
+            left: 150px;
+            top: 9px;
+            background: url(../images/sprite.png) 0 -46px no-repeat;
+            padding-left: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    /*身体部分*/
+    .guess-body{
+        .guess-left{
+            width: 960px;
+            float: left;
+            position: relative;
+            overflow: hidden;
+            padding-top: 20px;
+          //  height: 490px;
+            ul{
+                width: 1000px;
+                position: relative;
+                left: 0;
+                    li{
+                        width: 150px;
+                        margin-right: 47px;
+                        float: left;
+                        position: relative;
+                        margin-bottom: 17px;
+                    }
+                }           
+            }
+        }
+    
+}
+
+.guess-left li{
+    .f-title{
+        padding: 7px 23px 0;
+        height: 36px;
+        line-height: 18px;
+        a{
+            color: #000;
+            font-size: 12px;
+            &:hover{
+                color: #ff4400;
+                text-decoration: underline;
+            }
+        }
+    }
+    .f-star{
+     
+        padding: 3px 0 3px 22px;
+        display: inline-block;
+        height: 10px;
+         width: 49px;
+        background: url(../images/book_star_bg.png) 0 top repeat-x;
+        position: relative;
+        top: 1px;
+        left: 15px;
+           
+    }
+}
+/*可能喜欢的作者*/
+.guess-right{
+    width: 240px;
+    float: left;
+    background: #f7f7f7;
+    height: 510px;
+    overflow: hidden;
+    .youlike-authon{
+        width: 200px;
+        margin-left: 20px;
+        .youlike2{
+            padding-top: 20px;
+            h1{
+                color: #487a6f;
+                font-size: 16px;
+                height: 24px;
+                line-height: 24px;
+                font-weight: normal;
+                padding-left: 7px;
+                font-family: "Microsoft Yahei";
+            }
+        }
+    }
+}
+.youlike2 ul{
+    padding-left: 9px;
+    li{
+        width: 85px;
+        margin-right: 5px;
+        float: left;
+        line-height: 30px;
+        height: 30px;
+        overflow: hidden;
+        position: relative; 
+        a{
+            font-size:12px;
+            color: #000;
+            &:hover{
+                color: #ec7814;
+                text-decoration: underline;
+            }
+        }    
+    } 
+}
